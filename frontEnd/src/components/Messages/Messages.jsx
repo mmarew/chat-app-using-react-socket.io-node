@@ -1,5 +1,6 @@
 import React, { useEffect, useRef } from "react";
 import Message from "./Message/Message";
+import "./Messages.css";
 const Messages = ({ messages, name }) => {
   const messagesEndRef = useRef(null);
 

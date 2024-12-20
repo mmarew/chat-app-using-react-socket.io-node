@@ -67,8 +67,6 @@ const Chat = ({}) => {
       event.preventDefault();
       if (message) {
         socket.emit("sendMessage", message, () => {
-          console.log("zzzzz");
-
           setMessage("");
         });
       }
